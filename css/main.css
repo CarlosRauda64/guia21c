@@ -81,7 +81,7 @@ header{
     font-family: var(--secondary-font);
     font-weight: bold;
     color: var(--secondary-color);
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .about-me .text{
