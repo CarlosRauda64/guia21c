@@ -39,12 +39,20 @@ header{
     color: var(--white);
     font-size: 3rem;
 }
+
+.text-socialm{
+    font-family: var(--secondary-font);
+    color: var(--white);
+    font-size: 2rem;
+    margin: 2rem 0rem 1rem 0rem;
+}
+
 .container-socialmedia{
     display: grid;
     grid-template-columns: repeat(3, 5rem);
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .social-media{
