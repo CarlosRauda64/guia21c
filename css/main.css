@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Play:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-font: "Raleway", sans-serif;
+    --secondary-font: "Play", sans-serif;
+    --third-font: "Anton", sans-serif;
+    --primary-color: #8ab3cf;
+    --secondary-color: #4180ab;
+    --third-color:#bdd1de;
+    --white: #ffff;
+    --black: #0000;
+}
+
+header{
+    background-image: url('https://res.cloudinary.com/drfyvt5er/image/upload/v1723624408/Kodigo/bihkwnceha5afi5k1uff.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name{
+    font-family: var(--secondary-font);
+    color: white;
+    font-size: 7rem;
+}
+.title{
+    font-family: var(--secondary-font);
+    color: var(--white);
+    font-size: 3rem;
+}
+.container-socialmedia{
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media a{
+    font-family: var(--primary-font);
+    font-weight: bold;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.container-main{
+    padding: 2rem 16rem 2rem 16rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--third-color);
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me img{
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+}
+
+.about-me .title-about{
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 4rem;
+}
+
+.about-me .text{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+}
